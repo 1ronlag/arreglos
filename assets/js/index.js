@@ -41,7 +41,7 @@ const searchProperty = () => {
     alert("Debes ingresar todos los valores")
   }
 
-  let filter = propiedadesJSON.filter((p) => p.m >= minText && p.m <= maxText && p.rooms >= rooms
+  let filter = propiedadesJSON.filter((p) => p.meters >= minText && p.meters <= maxText && p.rooms >= rooms
   );
 
   if(filter.length==0){
